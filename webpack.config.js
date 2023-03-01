@@ -14,7 +14,6 @@ const config = {
   },
   output: {
     path: path.resolve(__dirname, "docs"),
-    publicPath: "/"
   },
   devServer: {
     static: {

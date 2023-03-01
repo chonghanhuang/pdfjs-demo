@@ -5,7 +5,6 @@ class PDFView {
     this.scale = scale
     this.pdfDoc = pdfDoc
     this._totalPageNum = pdfDoc.numPages
-    console.log(pdfDoc)
 
     this._$("prev").addEventListener("click", this.onPrevPage.bind(this))
     this._$("next").addEventListener("click", this.onNextPage.bind(this))
